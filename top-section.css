@@ -25,12 +25,11 @@
   align-items: center;
   background-color: var(--light);
   padding: 20px 32px;
-  margin-bottom: 16px;
   border-radius: 8px;
 }
 
-.review-card:last-child {
-  margin-bottom: 0;
+.review-card:not(:last-child) {
+  margin-bottom: 16px;
 }
 
 .review-card:nth-child(2) {
