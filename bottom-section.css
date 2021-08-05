@@ -1,14 +1,15 @@
 .bottom-section {
-  margin-top: 72px;
+  margin-top: 80px;
 }
 
 .testimonial-cards {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .testimonial-card {
+  position: relative;
   background-color: var(--magenta);
   width: 100%;
   padding: 40px 32px;
@@ -16,11 +17,11 @@
 }
 
 .testimonial-card:nth-child(2) {
-  margin-top: 20px;
+  top: 20px;
 }
 
 .testimonial-card:nth-child(3) {
-  margin-top: 40px;
+  top: 40px;
 }
 
 .testimonial-card:not(:last-child) {
@@ -59,4 +60,14 @@
 .testimonial-card-description {
   color: #fff;
   font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .testimonial-cards {
+    flex-direction: column;
+  }
+
+  .bottom-section {
+    margin-top: 50px;
+  }
 }
