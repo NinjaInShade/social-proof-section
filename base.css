@@ -62,6 +62,12 @@ h1 {
   letter-spacing: var(--body-s-letter-spacing);
 }
 
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
 @media (max-width: 375px) {
   :root {
     --h1: 24px;
