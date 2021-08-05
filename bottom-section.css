@@ -67,6 +67,15 @@
     flex-direction: column;
   }
 
+  .testimonial-card:not(:last-child) {
+    margin: 0 0 16px 0;
+  }
+
+  .testimonial-card:nth-child(2),
+  .testimonial-card:nth-child(3) {
+    top: 0;
+  }
+
   .bottom-section {
     margin-top: 50px;
   }

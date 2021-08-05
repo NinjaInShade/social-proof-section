@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/4-card-feature-section-with-grid-rowcolumn-4SLDfuf6V) -->
-<!-- - Live Site URL: (https://lm-4card-feature-section.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/social-proof-section-with-not-css-selector-css-custom-vars-Gq4f84-af)
+- Live Site URL: (https://lm-social-proof-section.netlify.app/)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I learnt about the :not(:last-child) selector to improve my css for when multiple items next to each other need for example a margin-right but the last one doesn't!
 
 ## Author
 
